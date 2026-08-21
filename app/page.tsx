@@ -47,27 +47,6 @@ function PhoneMockup() {
   );
 }
 
-function CompoundChart() {
-  return (
-    <svg viewBox="0 0 300 140" width="100%" height="140" role="img" aria-label="Compounding growth chart">
-      <polyline
-        points="10,120 60,100 110,95 160,60 210,45 290,10"
-        fill="none"
-        stroke="url(#g)"
-        strokeWidth="4"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <defs>
-        <linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
-          <stop offset="0%" stopColor="#FF5500" />
-          <stop offset="100%" stopColor="#FF7733" />
-        </linearGradient>
-      </defs>
-    </svg>
-  );
-}
-
 const features = [
   { title: "Today Checklist", body: "A single daily view of every goal that's due — check it off and move on." },
   { title: "Goals Management", body: "Pause and resume goals without losing your progress. Life happens; your compounding value doesn't reset." },
@@ -83,11 +62,10 @@ export default function Home() {
         <div className="container" style={{ display: "flex", gap: "48px", alignItems: "center", flexWrap: "wrap" }}>
           <div style={{ flex: "1 1 420px" }}>
             <h1 className="prose hero-heading" style={{ fontSize: "56px", lineHeight: 1.05 }}>
-              Small actions, compounding results.
+              Small Actions, <span style={{ textDecoration: "underline" }}>Compounding</span> Results.
             </h1>
             <p className="text-secondary" style={{ fontSize: "17px", maxWidth: "480px", marginTop: "16px" }}>
-              Set a starting value and a fixed increment per period — pushups, words, reps, whatever
-              you&apos;re building. Compounding Goals shows the live compounded value, not just a streak.
+              Set goals that grow with you over time.
             </p>
             <div style={{ marginTop: "32px" }}>
               <DownloadBadges />
@@ -119,9 +97,6 @@ export default function Home() {
               <p className="text-secondary">See the number climb, period over period.</p>
             </div>
           </div>
-          <div className="card" style={{ marginTop: "32px" }}>
-            <CompoundChart />
-          </div>
         </div>
       </section>
 
@@ -131,12 +106,12 @@ export default function Home() {
           <div className="grid grid-4">
             {features.map((f) => (
               <div key={f.title} className="card">
+                <h3 style={{ fontSize: "17px" }}>{f.title}</h3>
                 {f.premium && (
-                  <span className="badge" style={{ color: "var(--color-accent)", marginBottom: "8px" }}>
+                  <span className="badge" style={{ color: "var(--color-accent)", marginTop: "8px", marginBottom: "8px" }}>
                     Premium
                   </span>
                 )}
-                <h3 style={{ fontSize: "17px" }}>{f.title}</h3>
                 <p className="text-secondary" style={{ fontSize: "15px" }}>
                   {f.body}
                 </p>
