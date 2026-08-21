@@ -1,9 +1,9 @@
-export const metadata = { title: "Support — Compounding Goals" };
+export const metadata = { title: "Support: Compounding Goals" };
 
 const faqs = [
   {
     q: "How Do I Delete a Goal or Reset My Data?",
-    a: "Delete individual goals from within the app's goal management screen. To reset everything, delete and reinstall the app — all data is stored locally, so a fresh install starts clean.",
+    a: "Delete individual goals from within the app's goal management screen. To reset everything, delete and reinstall the app. All data is stored locally, so a fresh install starts clean.",
   },
   {
     q: "Will I Lose My Data if I Reinstall or Switch Phones?",

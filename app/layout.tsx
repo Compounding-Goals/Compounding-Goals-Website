@@ -4,9 +4,9 @@ import Image from "next/image";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Compounding Goals — Small actions. Compounding results.",
+  title: "Compounding Goals: Small actions. Compounding results.",
   description:
-    "Compounding Goals turns small, consistent actions into visible, quantified growth — start at a value, add a fixed increment every period, and watch it compound.",
+    "Compounding Goals turns small, consistent actions into visible, quantified growth: start at a value, add a fixed increment every period, and watch it compound.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

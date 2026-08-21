@@ -1,4 +1,4 @@
-export const metadata = { title: "Terms of Service — Compounding Goals" };
+export const metadata = { title: "Terms of Service: Compounding Goals" };
 
 export default function Terms() {
   return (
@@ -11,7 +11,7 @@ export default function Terms() {
 
         <h2>The Service</h2>
         <p>
-          Compounding Goals is a habit/goal-tracking app. There&apos;s no account required — all your
+          Compounding Goals is a habit/goal-tracking app. There&apos;s no account required: all your
           data is stored locally on your device, as described in our{" "}
           <a href="/privacy">Privacy Policy</a>.
         </p>
@@ -19,7 +19,7 @@ export default function Terms() {
         <h2>Free vs. Premium</h2>
         <p>
           The free tier includes 2 active goals, one global reminder, and full core tracking.
-          Premium is a one-time purchase of $19.99 for lifetime access — it is not a subscription.
+          Premium is a one-time purchase of $19.99 for lifetime access, not a subscription.
           Once real billing is live, purchases and refunds will be handled by Apple&apos;s App Store
           or Google Play under their standard store policies.
         </p>

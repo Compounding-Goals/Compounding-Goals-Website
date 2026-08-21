@@ -1,4 +1,4 @@
-export const metadata = { title: "Privacy Policy — Compounding Goals" };
+export const metadata = { title: "Privacy Policy: Compounding Goals" };
 
 export default function Privacy() {
   return (
@@ -9,7 +9,7 @@ export default function Privacy() {
 
         <p>
           Compounding Goals is built to keep your data on your phone. There&apos;s no account system
-          and no backend server — so we (the developer) never receive, see, or store your goal data.
+          and no backend server, so we (the developer) never receive, see, or store your goal data.
           Here&apos;s exactly what that means.
         </p>
 
@@ -21,7 +21,7 @@ export default function Privacy() {
         </p>
         <p>
           Because there&apos;s no cloud copy, reinstalling the app or switching phones will erase
-          your local data — there&apos;s nothing on our end to restore it from.
+          your local data. There&apos;s nothing on our end to restore it from.
         </p>
 
         <h2>No Tracking, No Ads, No Selling Data</h2>
@@ -33,16 +33,16 @@ export default function Privacy() {
         <h2>Reminders</h2>
         <p>
           Reminders are scheduled through your phone&apos;s own operating system notification
-          service. This happens entirely on-device — no data is sent to or through any external
+          service. This happens entirely on-device. No data is sent to or through any external
           service to make a reminder fire.
         </p>
 
         <h2>Premium Purchases</h2>
         <p>
-          Today, the Premium purchase flow is a local placeholder — tapping &quot;Purchase&quot;
+          Today, the Premium purchase flow is a local placeholder: tapping &quot;Purchase&quot;
           shows a confirmation and flips a flag stored on your device. No real transaction occurs
           and no payment information is collected. Once real billing is turned on, purchases will be
-          processed entirely by Apple&apos;s App Store or Google Play — Compounding Goals never sees
+          processed entirely by Apple&apos;s App Store or Google Play. Compounding Goals never sees
           or stores your payment details, only a purchase-verification confirmation from the store.
         </p>
 

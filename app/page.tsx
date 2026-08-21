@@ -48,7 +48,7 @@ function PhoneMockup() {
 }
 
 const features = [
-  { title: "Today Checklist", body: "A single daily view of every goal that's due — check it off and move on." },
+  { title: "Today Checklist", body: "A single daily view of every goal that's due. Check it off and move on." },
   { title: "Goals Management", body: "Pause and resume goals without losing your progress. Life happens; your compounding value doesn't reset." },
   { title: "Custom Reminders", body: "Per-goal reminder times, tuned to when you actually do the work.", premium: true },
   { title: "Statistics", body: "12-week heatmap, consistency rate, and per-goal growth charts.", premium: true },
@@ -126,7 +126,7 @@ export default function Home() {
           <h2 style={{ fontSize: "28px" }}>Start with Fitness</h2>
           <p className="text-secondary" style={{ maxWidth: "600px", marginTop: "8px" }}>
             Progressive overload is the clearest example of compounding: 10 pushups today, +2 a week,
-            and in six months you&apos;re not &quot;keeping a streak&quot; — you&apos;re doing 60+.
+            and in six months you&apos;re not &quot;keeping a streak.&quot; You&apos;re doing 60+.
           </p>
           <div className="grid grid-2" style={{ marginTop: "32px" }}>
             <div className="card">
@@ -139,7 +139,7 @@ export default function Home() {
             </div>
           </div>
           <p className="text-tertiary" style={{ marginTop: "24px", fontSize: "15px" }}>
-            Also works for productivity and creative goals — e.g. write 500 words a day, +50 per week.
+            Also works for productivity and creative goals: e.g. write 500 words a day, +50 per week.
           </p>
         </div>
       </section>
@@ -165,7 +165,7 @@ export default function Home() {
                 $19.99 <span style={{ fontSize: "15px", fontWeight: 600, color: "var(--color-success)" }}>one-time</span>
               </p>
               <p className="text-tertiary" style={{ fontSize: "13px", marginTop: "-4px", marginBottom: "12px" }}>
-                Lifetime access — not a subscription.
+                Lifetime access, not a subscription.
               </p>
               <ul style={{ paddingLeft: "20px", color: "var(--color-text-secondary)" }}>
                 <li>Unlimited goals</li>
