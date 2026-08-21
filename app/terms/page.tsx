@@ -9,7 +9,7 @@ export default function Terms() {
 
         <p>By downloading or using Compounding Goals, you agree to these terms.</p>
 
-        <h2>The service</h2>
+        <h2>The Service</h2>
         <p>
           Compounding Goals is a habit/goal-tracking app. There&apos;s no account required — all your
           data is stored locally on your device, as described in our{" "}
@@ -24,25 +24,25 @@ export default function Terms() {
           or Google Play under their standard store policies.
         </p>
 
-        <h2>Acceptable use</h2>
+        <h2>Acceptable Use</h2>
         <p>
           Use the app as intended. Don&apos;t reverse-engineer, decompile, or attempt to disrupt the
           app or abuse it in ways that could harm other users or the service.
         </p>
 
-        <h2>Disclaimer of warranties</h2>
+        <h2>Disclaimer of Warranties</h2>
         <p>
           Compounding Goals is provided &quot;as is,&quot; without warranties of any kind, express or
           implied. We don&apos;t guarantee the app will be error-free or uninterrupted.
         </p>
 
-        <h2>Limitation of liability</h2>
+        <h2>Limitation of Liability</h2>
         <p>
           To the maximum extent permitted by law, Compounding Goals and its developer are not liable
           for any indirect, incidental, or consequential damages arising from your use of the app.
         </p>
 
-        <h2>Governing law</h2>
+        <h2>Governing Law</h2>
         <p>These terms are governed by the laws of [CONFIRM: governing state/jurisdiction].</p>
 
         <h2>Contact</h2>

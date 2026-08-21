@@ -69,9 +69,9 @@ function CompoundChart() {
 }
 
 const features = [
-  { title: "Today checklist", body: "A single daily view of every goal that's due — check it off and move on." },
-  { title: "Goals management", body: "Pause and resume goals without losing your progress. Life happens; your compounding value doesn't reset." },
-  { title: "Custom reminders", body: "Per-goal reminder times, tuned to when you actually do the work.", premium: true },
+  { title: "Today Checklist", body: "A single daily view of every goal that's due — check it off and move on." },
+  { title: "Goals Management", body: "Pause and resume goals without losing your progress. Life happens; your compounding value doesn't reset." },
+  { title: "Custom Reminders", body: "Per-goal reminder times, tuned to when you actually do the work.", premium: true },
   { title: "Statistics", body: "12-week heatmap, consistency rate, and per-goal growth charts.", premium: true },
   { title: "Streaks", body: "Global and per-goal streaks that track consistency alongside your compounding value." },
 ];
@@ -101,21 +101,21 @@ export default function Home() {
 
       <section className="section" style={{ background: "var(--color-card)" }}>
         <div className="container">
-          <h2 style={{ fontSize: "28px", marginBottom: "32px" }}>How it works</h2>
+          <h2 style={{ fontSize: "28px", marginBottom: "32px" }}>How It Works</h2>
           <div className="grid grid-2" style={{ gridTemplateColumns: "repeat(3, 1fr)" }}>
             <div>
               <span className="badge">1</span>
-              <h3 style={{ fontSize: "17px", marginTop: "16px" }}>Set a starting value + increment</h3>
+              <h3 style={{ fontSize: "17px", marginTop: "16px" }}>Set a Starting Value + Increment</h3>
               <p className="text-secondary">e.g. 10 pushups, +2 per week.</p>
             </div>
             <div>
               <span className="badge">2</span>
-              <h3 style={{ fontSize: "17px", marginTop: "16px" }}>Check in each period</h3>
+              <h3 style={{ fontSize: "17px", marginTop: "16px" }}>Check in Each Period</h3>
               <p className="text-secondary">A quick tap on the Today screen.</p>
             </div>
             <div>
               <span className="badge">3</span>
-              <h3 style={{ fontSize: "17px", marginTop: "16px" }}>Watch the value compound</h3>
+              <h3 style={{ fontSize: "17px", marginTop: "16px" }}>Watch the Value Compound</h3>
               <p className="text-secondary">See the number climb, period over period.</p>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function Home() {
 
       <section className="section" id="features">
         <div className="container">
-          <h2 style={{ fontSize: "28px", marginBottom: "32px" }}>Built for people who track numbers, not vibes</h2>
+          <h2 style={{ fontSize: "28px", marginBottom: "32px" }}>Built for People Who Track Numbers, Not Vibes</h2>
           <div className="grid grid-4">
             {features.map((f) => (
               <div key={f.title} className="card">
@@ -148,7 +148,7 @@ export default function Home() {
 
       <section className="section" style={{ background: "var(--color-card)" }}>
         <div className="container">
-          <h2 style={{ fontSize: "28px" }}>Start with fitness</h2>
+          <h2 style={{ fontSize: "28px" }}>Start with Fitness</h2>
           <p className="text-secondary" style={{ maxWidth: "600px", marginTop: "8px" }}>
             Progressive overload is the clearest example of compounding: 10 pushups today, +2 a week,
             and in six months you&apos;re not &quot;keeping a streak&quot; — you&apos;re doing 60+.
@@ -159,7 +159,7 @@ export default function Home() {
               <p className="text-secondary">Start at 10, +2 per week</p>
             </div>
             <div className="card">
-              <h3 style={{ fontSize: "17px" }}>Bench press</h3>
+              <h3 style={{ fontSize: "17px" }}>Bench Press</h3>
               <p className="text-secondary">Start at 95 lbs, +5 per week</p>
             </div>
           </div>
@@ -204,7 +204,7 @@ export default function Home() {
 
       <section className="section" style={{ background: "var(--color-card)" }}>
         <div className="container">
-          <h2 style={{ fontSize: "28px" }}>What people are saying</h2>
+          <h2 style={{ fontSize: "28px" }}>What People Are Saying</h2>
           <div className="card" style={{ marginTop: "24px", textAlign: "center" }}>
             <p className="text-tertiary">
               [Placeholder: App Store reviews and testimonials will appear here after launch.]
@@ -227,7 +227,7 @@ export default function Home() {
               gap: "24px",
             }}
           >
-            <h2 style={{ fontSize: "28px" }}>Start compounding today</h2>
+            <h2 style={{ fontSize: "28px" }}>Start Compounding Today</h2>
             <DownloadBadges />
           </div>
         </div>
