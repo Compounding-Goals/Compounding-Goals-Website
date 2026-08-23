@@ -62,7 +62,7 @@ export default function Home() {
         <div className="container" style={{ display: "flex", gap: "48px", alignItems: "center", flexWrap: "wrap" }}>
           <div style={{ flex: "1 1 420px" }}>
             <h1 className="prose hero-heading" style={{ fontSize: "56px", lineHeight: 1.05 }}>
-              Small Actions, <span style={{ textDecoration: "underline" }}>Compounding</span> Results.
+              Consistent, <span style={{ textDecoration: "underline" }}>Compounding</span> Results.
             </h1>
             <p className="text-secondary" style={{ fontSize: "17px", maxWidth: "480px", marginTop: "16px" }}>
               Set goals that grow with you over time.
