@@ -24,10 +24,24 @@ export default function Privacy() {
           your local data. There&apos;s nothing on our end to restore it from.
         </p>
 
-        <h2>No Tracking, No Ads, No Selling Data</h2>
+        <h2>No Tracking, No Ads, No Selling Data (In the App)</h2>
         <p>
-          Compounding Goals has no analytics SDKs, no ad networks, and no trackers. Nothing about
-          your usage is collected, and nothing is ever sold to third parties.
+          The Compounding Goals app itself has no analytics SDKs, no ad networks, and no trackers.
+          Nothing about your in-app usage is collected, and nothing is ever sold to third parties.
+        </p>
+
+        <h2>This Website</h2>
+        <p>
+          This marketing website (the pages you&apos;re reading now, separate from the app) uses
+          Google Analytics to understand aggregate traffic, such as how many people visit and which
+          pages they view. Google Analytics may use cookies and collect standard information like
+          your browser, device type, and approximate location. This data is used only to understand
+          site traffic; it is not linked to your identity, and it has no connection to any data
+          stored in the app. You can opt out using a browser extension like Google&apos;s{" "}
+          <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">
+            Analytics Opt-out Add-on
+          </a>
+          .
         </p>
 
         <h2>Reminders</h2>
