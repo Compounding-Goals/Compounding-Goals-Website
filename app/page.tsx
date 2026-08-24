@@ -65,7 +65,7 @@ export default function Home() {
               Consistent, <span style={{ textDecoration: "underline" }}>Compounding</span> Results.
             </h1>
             <p className="text-secondary" style={{ fontSize: "17px", maxWidth: "480px", marginTop: "16px" }}>
-              Set goals that grow with you over time.
+              The habit tracker for goals that grow.
             </p>
             <div style={{ marginTop: "32px" }}>
               <DownloadBadges />
