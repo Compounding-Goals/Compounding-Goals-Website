@@ -72,7 +72,7 @@ export default function Privacy() {
         <h2>Contact</h2>
         <p>
           Questions about this policy? Email{" "}
-          <a href="mailto:CONFIRM-EMAIL@example.com">[CONFIRM: support email address]</a>.
+          <a href="mailto:contactcompoundinggoals@gmail.com">contactcompoundinggoals@gmail.com</a>.
         </p>
       </div>
     </section>

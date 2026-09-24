@@ -22,7 +22,7 @@ export default function Support() {
         <h1>Support</h1>
         <p>
           Need help or have feedback? Email us at{" "}
-          <a href="mailto:CONFIRM-EMAIL@example.com">[CONFIRM: support email address]</a> and we&apos;ll
+          <a href="mailto:contactcompoundinggoals@gmail.com">contactcompoundinggoals@gmail.com</a> and we&apos;ll
           get back to you.
         </p>
 

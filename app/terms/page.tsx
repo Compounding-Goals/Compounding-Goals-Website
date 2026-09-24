@@ -60,7 +60,7 @@ export default function Terms() {
         <h2>Contact</h2>
         <p>
           Questions about these terms? Email{" "}
-          <a href="mailto:CONFIRM-EMAIL@example.com">[CONFIRM: support email address]</a>.
+          <a href="mailto:contactcompoundinggoals@gmail.com">contactcompoundinggoals@gmail.com</a>.
         </p>
       </div>
     </section>
