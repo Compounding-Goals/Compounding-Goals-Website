@@ -5,7 +5,7 @@ export default function Terms() {
     <section className="section">
       <div className="container prose">
         <h1>Terms of Service</h1>
-        <p className="text-tertiary">Last updated: August 20, 2026</p>
+        <p className="text-tertiary">Last updated: September 23, 2026</p>
 
         <p>By downloading or using Compounding Goals, you agree to these terms.</p>
 

@@ -5,7 +5,7 @@ export default function Privacy() {
     <section className="section">
       <div className="container prose">
         <h1>Privacy Policy</h1>
-        <p className="text-tertiary">Last updated: August 20, 2026</p>
+        <p className="text-tertiary">Last updated: September 23, 2026</p>
 
         <p>
           Compounding Goals is built to keep your data on your phone. There&apos;s no account system
