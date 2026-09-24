@@ -18,11 +18,23 @@ export default function Terms() {
 
         <h2>Free vs. Premium</h2>
         <p>
-          The free tier includes 2 active goals, one global reminder, and full core tracking.
-          Premium is a one-time purchase of $19.99 for lifetime access, not a subscription.
-          Once real billing is live, purchases and refunds will be handled by Apple&apos;s App Store
-          or Google Play under their standard store policies.
+          The free tier includes 2 active goals, one daily reminder that covers all goals, and full
+          core tracking. Premium is a one-time purchase of $19.99 for lifetime access, not a
+          subscription. Once real billing is live, purchases and refunds will be handled by
+          Apple&apos;s App Store or Google Play under their standard store policies.
         </p>
+        <p>Premium includes three features:</p>
+        <ul>
+          <li>Unlimited Goals: free users can have up to 2 goals.</li>
+          <li>
+            Advanced Statistics: a 12-week completion heatmap, consistency rates for each goal and
+            overall, and a growth chart for each goal.
+          </li>
+          <li>
+            Custom Reminders: per-goal reminders with their own time and schedule. Free users get one
+            daily reminder that covers all goals.
+          </li>
+        </ul>
 
         <h2>Acceptable Use</h2>
         <p>
@@ -43,7 +55,7 @@ export default function Terms() {
         </p>
 
         <h2>Governing Law</h2>
-        <p>These terms are governed by the laws of [CONFIRM: governing state/jurisdiction].</p>
+        <p>These terms are governed by the laws of the State of Texas, United States.</p>
 
         <h2>Contact</h2>
         <p>
